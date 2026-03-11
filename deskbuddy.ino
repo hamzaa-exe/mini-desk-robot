@@ -1,10 +1,3 @@
-// watch complete making video from here , please subscribe and support us
-// you can buy components and this kit from www.esclabs.in 
-
-// ==================================================
-// EDISON SCIENCE CORNER  - ESCLABS
-// ==================================================
-
 #include <WiFi.h>
 #include <WebServer.h>
 #include <Preferences.h>
@@ -178,12 +171,12 @@ void loadConfig() {
   tzString    = prefs.getString("tz", "");
   prefs.end();
   if (wifiSsid.isEmpty()) {
-    wifiSsid    = "edison science corner";
-    wifiPass    = "eeeeeeee";
-    apiKey      = "45fcf5807a5920e2006c2b8a077d423f";
-    city        = "Idukki";
-    countryCode = "IN";
-    tzString    = "IST-5:30";
+    wifiSsid    = "UniTelNet";
+    wifiPass    = "03330626363";
+    apiKey      = "5b1202b9d180aac83f63741049aadc90";
+    city        = "Rawalpindi";
+    countryCode = "PK";
+    tzString    = "GMT+5";
   } else {
     if (apiKey.isEmpty())  apiKey = "45fcf5807a5920e2006c2b8a077d423f";
     if (city.isEmpty())    city = "Idukki";
